@@ -1,7 +1,12 @@
 // BASE
 @import './base/normalize';
 @import './base/global';
+@import './utils/breakpoints';
+@import './components/section';
+@import './components/page-header';
+@import './components/comtainer';
+@import './components/company-logo';
+@import './components/features';
+@import './utils/mixins';
 
-body{
-    background-color: orchid;
-}
+

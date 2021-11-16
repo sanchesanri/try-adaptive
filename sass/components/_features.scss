@@ -1,0 +1,15 @@
+.features-set {
+    @extend %list;
+}
+.features-item {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20;
+    color: #fff;
+    font-size: 32px;
+
+}
+
+$colors: "#F44336", "#3F51B5", "#4CAF50", "#00BCD4", "#E91E63", "#009688";
+
+@include colorize($colors, ".features-item");

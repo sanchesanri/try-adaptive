@@ -1,12 +1,18 @@
 // BASE
+
+@import './utils/breakpoints';
+@import './utils/mixins';
+@import './utils/plaseholders';
+
+
 @import './base/normalize';
 @import './base/global';
-@import './utils/breakpoints';
+
+
 @import './components/section';
 @import './components/page-header';
-@import './components/comtainer';
+@import './components/container';
 @import './components/company-logo';
 @import './components/features';
-@import './utils/mixins';
 
 
